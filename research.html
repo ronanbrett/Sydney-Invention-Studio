@@ -39,32 +39,90 @@
         <div class="headerBump"></div>
         <div class="research__menu push--top push--left float--left one-fifth">
             <ul class="nav">
-                <li><a class="innovation active" href="#"><img class="svg-inject" src="images/research/svg/innovation.svg" alt="">Innovation</a></li>
-                <li><a class="environment" href="#"><img class="svg-inject" src="images/research/svg/environment.svg" alt="">Environment</a></li>
-                <li><a class="technology" href="#"><img class="svg-inject" src="images/research/svg/technology.svg" alt="">Technology</a></li>
-                <li><a class="society" href="#"><img class="svg-inject" src="images/research/svg/society.svg" alt="">Society</a></li>
-                <li><a class="cities" href="#"><img class="svg-inject" src="images/research/svg/city.svg" alt="">Cities</a></li>
-                <li><a class="narrative" href="#"><img class="svg-inject" src="images/research/svg/narrative.svg" alt="">Narrative</a></li>
-                <li><a class="culture" href="#"><img class="svg-inject" src="images/research/svg/culture.svg" alt="">Culture</a></li>
+                <li><a class="innovation active" href="#Innovation"><img class="svg-inject" src="images/research/svg/innovation.svg" alt="">Innovation</a></li>
+                <li><a class="environment" href="#Environment"><img class="svg-inject" src="images/research/svg/environment.svg" alt="">Environment</a></li>
+                <li><a class="technology" href="#Technology"><img class="svg-inject" src="images/research/svg/technology.svg" alt="">Technology</a></li>
+                <li><a class="society" href="#Society"><img class="svg-inject" src="images/research/svg/society.svg" alt="">Society</a></li>
+                <li><a class="cities" href="#Cities"><img class="svg-inject" src="images/research/svg/city.svg" alt="">Cities</a></li>
+                <li><a class="narrative" href="#Narrative"><img class="svg-inject" src="images/research/svg/narrative.svg" alt="">Narrative</a></li>
+                <li><a class="culture" href="#Culture"><img class="svg-inject" src="images/research/svg/culture.svg" alt="">Culture</a></li>
             </ul>
         </div>
         <div class="research__content soft--top four-fifths float--left">
-            <h1 class="weight--light giga">Innovation</h1>
-            <div class="one-whole lines--ends grey push--bottom float--left">
-                <div class="one-quarter float--left flush"><p class="soft-half--ends flush">All Works</p></div>
-                <div class="one-quarter float--left flush"><p class="soft-half--ends flush">All Types</p></div>
-                <div class="one-quarter float--left flush"><p class="soft-half--ends flush">Any Lecturer</p></div>
-                <div class="one-quarter float--left flush"><p class="soft-half--ends flush">Ordered by Date</p></div>
+            <h1 class="weight--light giga" id="researchTitle">Innovation</h1>
+            <div class="research__topmenu one-whole lines--bottom lines--top grey push--bottom float--left">
+                <div class="research__topmenu--unexpanded">
+                    <div class="one-third float--left flush" id="works">
+                        <p class="soft-half--ends flush">All Works</p>
+                    </div>
+                    <div class="one-third float--left flush" id="types">
+                        <p class="soft-half--ends flush">All Types</p>
+                        
+                    </div>
+                    <div class="one-third float--left flush"><p class="soft-half--ends flush">Standalone and Portfolios</p></div>
+                </div>
+                <a class="navicon-button x">
+                  <div class="navicon"></div>
+                </a>    
+                <div class="research__topmenu--expanded closed lines--top grey float--left">
+                    <div class="research__topmenu--tags one-third float--left soft--ends">
+                    <p class="push-half--bottom">Tags</p>
+                    <ul class="tagList" id="tags">
+                        <li class="tag"><a href="#" class="">+Ideation</a></li>
+                        <li class="tag"><a href="#" class="">+Human Centered Design</a></li>
+                        <li class="tag"><a href="#" class="">+Design Thinking</a></li>
+                        <li class="tag"><a href="#" class="">+Business Design</a></li>
+                        <li class="tag"><a href="#" class="">+Creative Culture</a></li>
+                        <li class="tag"><a href="#" class="">+Emergent Design</a></li>
+                        <li class="tag"><a href="#" class="">+Experience Design</a></li>
+                        <li class="tag"><a href="#" class="">+Participation Economy</a></li>
+                        <li class="tag"><a href="#" class="">+Strategic Thinking</a></li>
+                        </ul> 
+                    </div> 
+                    <div class="research__topmenu--tags one-third float--left soft--ends">
+                    <p class="push-half--bottom">Types</p>
+                    <ul class="tagList" id="types">
+                        <li class="tag"><a href="#" class="">+Musical Compositions</a></li>
+                        <li class="tag"><a href="#">+Architectural Designs</a></li>
+                        <li class="tag"><a href="#">+Visual Artworks</a></li>
+                        <li class="tag"><a href="#">+Texts</a></li>
+                        <li class="tag"><a href="#">+Music</a></li>
+                        <li class="tag"><a href="#">+Drama</a></li>
+                        <li class="tag"><a href="#">+Interarts</a></li>
+                        <li class="tag"><a href="#">+Dance</a></li>
+                        <li class="tag"><a href="#">+Performances</a></li>
+                        <li class="tag"><a href="#">+Films (Other)</a></li>
+                        <li class="tag"><a href="#">+Films (Creative)</a></li>
+                        <li class="tag"><a href="#">+Digital Creative Works</a></li>
+                        <li class="tag"><a href="#">+Websites</a></li>
+                        <li class="tag"><a href="#">+Creative Work Exhibitions</a></li>
+                        <li class="tag"><a href="#">+Festivals</a></li>
+                        <li class="tag"><a href="#">+Curated Websites</a></li>
+                        <li class="tag"><a href="#">+Scholarly Exhibitions</a></li>
+                        </ul> 
+                    </div> 
+                    <div class="research__topmenu--tags one-third float--left soft--ends">
+                    <p class="push-half--bottom">Types</p>
+                    <ul class="tagList" id="versions">
+                        <li class="tag giant"><a href="#" class="">Portfolios</a></li>
+                        <li class="tag giant"><a href="#">Standalone</a></li>
+                        <li class="tag giant"><a href="#">Standalone & Portfolios</a></li>
+
+                        </ul> 
+                    </div> 
+                    
+                </div>
             </div>
-            <div class="one-whole float--left push--bottom">
+            <div class="research__content--item one-whole float--left push--bottom">
+                <a href="creators.html"><img class="one-third float--left" src="images/projects/creators.png" alt=""></a>
+                <p class="two-thirds float--left soft--sides">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, esse perspiciatis ipsum pariatur quos! Esse, ut, voluptas, eaque similique eos dolorem vel accusantium enim quos obcaecati sit eius architecto recusandae omnis quibusdam a aperiam quidem. Aperiam, nam, dignissimos, tempora quasi animi necessitatibus laboriosam odio debitis aut ea natus neque officiis!</p>
+                <p class="two-thirds float--left soft--sides">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, esse perspiciatis ipsum pariatur quos! Esse, ut, voluptas, eaque similique eos dolorem vel accusantium enim quos obcaecati sit eius architecto recusandae omnis quibusdam a aperiam quidem. Aperiam, nam, dignissimos, tempora quasi animi necessitatibus laboriosam odio debitis aut ea natus neque officiis!</p>
+            </div>
+            <div class="research__content--item one-whole float--left push--bottom">
                 <a href="creators.html"><img class="one-third float--left" src="images/projects/creators.png" alt=""></a>
                 <p class="two-thirds float--left soft--sides">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, esse perspiciatis ipsum pariatur quos! Esse, ut, voluptas, eaque similique eos dolorem vel accusantium enim quos obcaecati sit eius architecto recusandae omnis quibusdam a aperiam quidem. Aperiam, nam, dignissimos, tempora quasi animi necessitatibus laboriosam odio debitis aut ea natus neque officiis!</p>
             </div>
-            <div class="one-whole float--left push--bottom">
-                <a href="creators.html"><img class="one-third float--left" src="images/projects/creators.png" alt=""></a>
-                <p class="two-thirds float--left soft--sides">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, esse perspiciatis ipsum pariatur quos! Esse, ut, voluptas, eaque similique eos dolorem vel accusantium enim quos obcaecati sit eius architecto recusandae omnis quibusdam a aperiam quidem. Aperiam, nam, dignissimos, tempora quasi animi necessitatibus laboriosam odio debitis aut ea natus neque officiis!</p>
-            </div>
-            <div class="one-whole float--left push--bottom">
+            <div class="research__content--item one-whole float--left push--bottom">
                 <a href="creators.html"><img class="one-third float--left" src="images/projects/creators.png" alt=""></a>
                 <p class="two-thirds float--left soft--sides">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, esse perspiciatis ipsum pariatur quos! Esse, ut, voluptas, eaque similique eos dolorem vel accusantium enim quos obcaecati sit eius architecto recusandae omnis quibusdam a aperiam quidem. Aperiam, nam, dignissimos, tempora quasi animi necessitatibus laboriosam odio debitis aut ea natus neque officiis!</p>
             </div>
